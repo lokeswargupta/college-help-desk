@@ -18,11 +18,11 @@ jobs:
           node-version: 24
 
       - name: Install & build frontend
-        working-directory: client
+        working-directory: college-help-desk-/client
         run: |
           npm install
           npm run build
 
       - name: Install backend
-        working-directory: server
+        working-directory: college-help-desk-/server
         run: npm install
